@@ -1,5 +1,5 @@
-// Solution passes all tests with 3ms runtime (meets or beats 72.25% of
-// competitors) and 14.87 memory (meets or beats 36.65% of competitors)
+// Solution passes all tests with 0ms runtime (meets or beats 100.00% of
+// competitors) and 14.96 memory (meets or beats 21.46% of competitors)
 
 using std::vector;
 
