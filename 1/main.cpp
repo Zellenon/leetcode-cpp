@@ -9,7 +9,7 @@ public:
     std::unordered_map<int, int> hmap = {};
     for (int i = 0; i < nums.size() - 1; i++) {
       int remainder = target - nums[i];
-      if (hmap.contains(remainder)) {
+      if (hmap.count(remainder)) {
         return {i, hmap.at(remainder)};
       } else {
         hmap.insert({nums[i], i});
