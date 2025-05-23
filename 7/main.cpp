@@ -7,10 +7,10 @@ public:
   int reverse(int x) {
     bool neg = x < 0;
     int val = 0;
-    int max = std::numeric_limits<int>::max() / 10 + 2;
+    int max = std::numeric_limits<int>::max() / 10 + 1;
 
     if (neg) {
-      if (x < (max - 2) * -10)
+      if (x < (max - 1) * -10)
         return 0;
 
       x *= -1;
