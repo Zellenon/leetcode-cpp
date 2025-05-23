@@ -1,3 +1,6 @@
+// Solution passes all tests with 3ms runtime (meets or beats 72.25% of
+// competitors) and 14.87 memory (meets or beats 36.65% of competitors)
+
 using std::vector;
 
 class Solution {
